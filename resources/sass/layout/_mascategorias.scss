@@ -1,0 +1,57 @@
+.mas-categorias{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    .categoria-titulo{
+        padding: 10px;
+    }
+    .categoria-mosaico{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .mosaico{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        width: 150px; height: 150px; padding: 10px;
+        @include tablet{
+            width: 170px; 
+            height: 170px;
+        }
+        @include tabletx{
+            width: 220px; 
+            height: 220px;
+        }
+    }
+    a{
+        position: absolute;
+        color: $blanco;
+        text-shadow: 0px 0px 8px $negro;
+
+        transform: translate(0%, 200%);
+        -webkit-transform: translate(0%, 200%);
+        -moz-transform: translate(0%, 200%);
+        -ms-transform: translate(0%, 200%);
+        -o-transform: translate(0%, 200%);
+        text-decoration: none;
+        @include tabletx{
+            transform: translate(0%, 300%);
+            -webkit-transform: translate(0%, 300%);
+            -moz-transform: translate(0%, 300%);
+            -ms-transform: translate(0%, 300%);
+            -o-transform: translate(0%, 300%);
+        }
+    }
+}

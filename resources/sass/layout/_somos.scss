@@ -1,0 +1,38 @@
+.contenedor-somos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+    @include tabletx{
+        padding: 7%;
+    }
+    .somos-titulo{
+        width: 100%;
+        border-bottom: 3px solid $color4;
+        padding-bottom: 5px;
+        margin-bottom: 40px;
+        @include tablet{
+            padding-bottom: 10px;
+        }
+    }
+    .somos-info{
+        text-align: justify;
+        @include tablet{
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 70px;
+        }
+        @include tabletx{
+            padding-top: 40px;
+        }
+        .quien{
+            hyphens: none;
+            -webkit-hyphens: none;
+            -moz-hyphens: none;
+            -ms-hyphens: none;
+}
+    }
+}

@@ -1,0 +1,37 @@
+
+.configuracion-multi{
+  margin: 0;
+  .subcontenedor-config{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    @include tabletx{
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  .vendermas{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 1px solid lightgray;
+    padding: 1rem ;
+    text-align: left;
+    border-radius: 5px;
+    margin: 2rem 0;
+    justify-content: space-between;
+    .titulo-vendermas{
+      width:80%;  
+    }
+    .item-vendermas{
+      width: 4rem;
+    }
+    .parrafo-vendermas{
+      width: 100%;
+    }
+    .link-vendermas{
+      color: $color3;
+      font-weight: bold;
+    }
+  }
+}

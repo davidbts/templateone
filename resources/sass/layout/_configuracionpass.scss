@@ -1,0 +1,81 @@
+.configuracion-multi{
+  .form-personales{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: left;
+    padding: 1rem 0;
+    @include tablet{
+        justify-content: space-between;
+    }
+    label{
+      display: block;
+      width: 100%;
+      font-weight: bold;
+    }
+    input{
+        width: 100%;
+        padding: 1rem;
+        margin: .7rem 0;
+        border: 1px solid #E3E3E3;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        font-weight: 500;
+        @include tablet{
+            width: 100%;
+        }
+        @include tabletx{
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    input[type='submit']{
+      font-size: 1.4rem;
+      margin: 2rem 0;
+      background-color: $color3;
+      color: $blanco;
+      border: none;
+      cursor: pointer;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+    }
+    input::placeholder{
+      color: black;
+    }
+    .juntar-nombre{
+      width: 100%;
+      @include tabletx{
+        width: 50%;}
+    }
+    select{
+      width: 65px;
+      padding: 1rem .5rem ;
+      margin: .7rem .5rem;
+      border: 1px solid #E3E3E3;
+      text-align: center;
+      border-radius: 7px;
+      -webkit-border-radius: 7px;
+      -moz-border-radius: 7px;
+      -ms-border-radius: 7px;
+      -o-border-radius: 7px;
+      &:nth-of-type(2){
+        width: 105px;
+      }
+      @include tablet{
+          width: 65px;
+      }
+      @include tabletx{
+          width: 70px;
+      }
+      option{
+          color: black;
+          font-size: 1.2rem;
+      }
+    }
+  }
+}

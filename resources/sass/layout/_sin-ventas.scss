@@ -1,0 +1,88 @@
+.contenedor-ventas{
+    width: 100%;
+    height: 80%;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+    @include tabletx{
+        padding: 7%;
+        margin-bottom: 0px;
+    }
+    .ventas-titulo{
+        width: auto;
+        display: flex;
+        padding-bottom: 10px;
+        @include tablet{
+            margin-bottom: 50px;
+        }
+        @include tabletx{
+            margin-bottom: 70px;
+        }
+    }
+    h2{
+        width: 100%;
+        padding-bottom: 3px;
+        border-bottom: 3px solid $color4;
+    }
+    .sin-ventas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .sin-ventas-info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            p{
+                text-align: center;
+                margin: 5px;
+            }
+            
+            .sin-ventas-boton{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                a{
+                    font-size: 1.2rem;
+                    text-align: center;
+                    width: 130px;
+                    background-color: $color3;
+                    color: $blanco;
+                    border: none;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                    @include tabletx{
+                        font-size: 1.5rem;
+                        width: 180px;
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+        .sin-ventas-img{
+            width: 200px;
+            height: 200px;    
+            @include tabletx{
+                width: 250px;
+                height: 250px;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+}
