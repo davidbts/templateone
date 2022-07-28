@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Upton4Ever Admin</title>
+    <title>Admin Template</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
