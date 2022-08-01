@@ -8,6 +8,7 @@
     wow.init();
     
     // Navigation scrolls
+    console.log('nav');
     $('.navbar-nav li a').bind('click', function(event) {
         $('.navbar-nav li').removeClass('active');
         $(this).closest('li').addClass('active');

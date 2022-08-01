@@ -1,8 +1,8 @@
 <div class="header">
-      <div class="bg-color">
+    <div class="bg-color">
         <header id="main-header">
           <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container text-center">
+            <div class="container">
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
@@ -44,4 +44,4 @@
           </div>
         </div>
       </div>
-    </div>
+</div>

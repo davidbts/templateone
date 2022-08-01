@@ -23,7 +23,9 @@
 <body>
 
     @include('includes.header02')
-    
+    @include('layouts.nosotros')
+    @include('layouts.servicios')
+    @include('layouts.portafolio')
     <div class="content">
         @yield('content')
     </div>

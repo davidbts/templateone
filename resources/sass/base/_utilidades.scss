@@ -110,32 +110,6 @@
 .link-azul:visited{ color: $color3; }
 
 
-.btn{
-  display: inline-block;
-  padding: 1.25rem;
-  border-radius: 2px;
-  font-size: 1.2rem;
-  font-weight:bolder;
-  margin-bottom: 1.5rem;
-  border: none;
-  cursor: pointer;
-}
-.btn-facebook{
-  width: 95%;
-  background-color: $colorface;
-  color: $blanco;
-}
-.btn-google{
-  width: 95%;
-  border: 1px solid lightgrey;
-  color: $colormail;
-}
-.btn-enviar{
-  width: 50%;
-  background-color: $color3;
-  color: $blanco;
-  margin: 1rem 0;
-}
 
 label{
   margin-top: 1rem;
