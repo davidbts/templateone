@@ -29,6 +29,7 @@
     },
     "dependencies": {
         "node-sass": "^6.0.1",
-        "tailwindcss": "^2.2.0"
+        "tailwindcss": "^2.2.0",
+        "wowjs": "^1.1.3"
     }
 }

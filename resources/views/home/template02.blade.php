@@ -1,7 +1,15 @@
 @extends('layouts.app02')
+@include('includes.header02')
+@include('layouts.nosotros')
+    @include('layouts.servicios')
+    @include('layouts.portafolio')
+    @include('layouts.testimonios')
+
+    @include('layouts.contacto')
 
 @section('content')
 
-<h1>Principal</h1>
+
 
 @endsection
+@include('includes.footer02')

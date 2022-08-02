@@ -1,7 +1,7 @@
 <section id="feature" class="section-padding wow fadeIn delay-05s">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class=" col-lg-3 col-md-6 col-12">
             <div class="wrap-item text-center">
               <div class="item-img">
                 <img src="img/ser01.png">
@@ -10,7 +10,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="col-lg-3 col-md-6 col-12">
             <div class="wrap-item text-center">
               <div class="item-img">
                 <img src="img/ser02.png">
@@ -19,7 +19,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="col-lg-3 col-md-6 col-12">
             <div class="wrap-item text-center">
               <div class="item-img">
                 <img src="img/ser03.png">
@@ -28,7 +28,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="col-lg-3 col-md-6 col-12">
             <div class="wrap-item text-center">
               <div class="item-img">
                 <img src="img/ser04.png">
